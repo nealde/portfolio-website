@@ -54,11 +54,11 @@ export const LandingNavbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="p-4 bg-transparent flex items-center justify-between">
+    <nav className="p-20 bg-transparent flex justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-8 w-8 mr-4">
+        {/* <div className="relative h-8 w-8 mr-4">
           <Image fill alt="Logo" src="/logo.png" />
-        </div>
+        </div> */}
         <h1 className={cn("text-2xl font-bold text-white", font.className)}>
           NDE
         </h1>
