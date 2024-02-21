@@ -1,4 +1,5 @@
 import './globals.css'
+import '../style.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { LandingNavbar } from "@/components/landing-navbar";
@@ -19,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <div className="bg-[#172138] ">
+        <div className="bg-[#111827] ">
         <div className="h-full overflow-auto mx-auto max-w-screen-xl w-full">
           <LandingNavbar />
         </div>
