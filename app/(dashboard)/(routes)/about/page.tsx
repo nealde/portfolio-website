@@ -19,6 +19,7 @@ import {
   DiVisualstudio,
   DiSpark,
   DiRust,
+  DiGo,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -39,6 +40,7 @@ import {
   SiMlflow,
   SiScikitlearn,
   SiCondaforge,
+  SiCplusplus,
 } from "react-icons/si";
 
 // import { tools } from "@/constants";
@@ -184,6 +186,20 @@ const tools_learning_next = [
     color: "white",
     // bgColor: "bg-python",
   },
+  {
+    label: "C++",
+    href: "https://www.rust-lang.org/",
+    icon: SiCplusplus,
+    color: "white",
+    // bgColor: "bg-python",
+  },
+  {
+    label: "GoLang",
+    href: "https://www.rust-lang.org/",
+    icon: DiGo,
+    color: "white",
+    // bgColor: "bg-python",
+  },
 ];
 
 export default function HomePage() {
@@ -201,7 +217,7 @@ export default function HomePage() {
       </div>
       <div className="text-center">
         <h1 className="project-heading text-white pb-5 pt-3">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">skillset </strong>
         </h1>
         {/* <div className="items-center justify-center">
           <Row>
