@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BarChartBig } from "lucide-react";
 import { useRouter } from "next/navigation";
 // import { Col, Row } from "react-bootstrap";
 
@@ -41,6 +41,7 @@ import {
   SiScikitlearn,
   SiCondaforge,
   SiCplusplus,
+  SiTerraform,
 } from "react-icons/si";
 
 // import { tools } from "@/constants";
@@ -166,6 +167,13 @@ const tools_learning_next = [
     // bgColor: "bg-python",
   },
   {
+    label: "Terraform",
+    href: "https://www.terraform.io/",
+    icon: SiTerraform,
+    color: "white",
+    // bgColor: "bg-python",
+  },
+  {
     label: "React",
     href: "https://react.dev/",
     icon: SiReact,
@@ -188,18 +196,25 @@ const tools_learning_next = [
   },
   {
     label: "C++",
-    href: "https://www.rust-lang.org/",
+    href: "https://cplusplus.com/",
     icon: SiCplusplus,
     color: "white",
     // bgColor: "bg-python",
   },
   {
     label: "GoLang",
-    href: "https://www.rust-lang.org/",
+    href: "https://go.dev/",
     icon: DiGo,
     color: "white",
     // bgColor: "bg-python",
   },
+  {
+    label: "Statistics",
+    href: "https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/1491952962",
+    icon: BarChartBig,
+    color: "white",
+    // bgColor: "bg-python",
+  }
 ];
 
 export default function HomePage() {
