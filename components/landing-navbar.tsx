@@ -44,7 +44,7 @@ const sidebarTools = [
   icon: Pencil,
   color: "text-white",
   // bgColor: "bg-pink-700/10",
-  href: '/blog',
+  href: '/posts',
 },
 ]
 
