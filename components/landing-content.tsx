@@ -22,15 +22,9 @@ const experience = [
     name: "Nanoramic Laboratories",
     avatar: "M",
     title: "Director of Machine Learning Systems",
-    description: "Scoped and lead development of in-house analytics platform and data warehouse for battery data",
+    description: "Scoped and lead development of in-house predictive analytics platform and data warehouse for battery data",
     link: "/experience/nl"
   },
-  // {
-  //   name: "Mary",
-  //   avatar: "M",
-  //   title: "CFO",
-  //   description: "The best in class, definitely worth the premium subscription!",
-  // },
 ];
 
 
@@ -46,7 +40,7 @@ const top_projects = [
     title: "Physics-Guided Neural Networks",
     date: "2019",
     description: "Generated Ensembled Neural Networks that can accurately represent internal battery states while enforcing physical constraints, including monotonicity.  Sped up implementation 5x leveraging JIT-compiled functions on NumPy arrays.",
-    link: "/blog",
+    link: "/posts",
     projectType: "Application"
   },
   {
