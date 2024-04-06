@@ -25,13 +25,13 @@ const sidebarTools = [
   href: '/about',
   color: "text-white",
 },
-{
-  label: 'Projects',
-  icon: FolderGit2,
-  href: '/projects',
-  color: "text-white",
-  // bgColor: "bg-emerald-500/10",
-},
+// {
+//   label: 'Projects',
+//   icon: FolderGit2,
+//   href: '/projects',
+//   color: "text-white",
+//   // bgColor: "bg-emerald-500/10",
+// },
 {
   label: 'Resume',
   icon: FileText,

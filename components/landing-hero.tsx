@@ -20,8 +20,8 @@ export const LandingHero = () => {
           <TypewriterComponent
             options={{
               strings: [
-                "Data Scientist",
                 "Machine Learning Engineer",
+                "Data Scientist",
                 "Project Manager",
                 "Chemical Engineer",
                 "Pianist",
@@ -32,7 +32,7 @@ export const LandingHero = () => {
               ],
               autoStart: true,
               loop: true,
-              // wrapperClassName: "Typewriter__cursor"
+              wrapperClassName: "leading-loose"
             }}
           />
         </div>

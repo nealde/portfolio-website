@@ -8,14 +8,14 @@ const experience = [
     name: "University of Washington",
     avatar: "J",
     title: "Graduate Student",
-    description: "Combining Machine Learning and Continuum-scale Modeling to Predict the Behavior of Li Ion Batteries",
+    description: "CombinedMachine Learning and Continuum-scale Modeling to Predict the Behavior of Li Ion Batteries",
     link: "/experience/uw"
   },
   {
     name: "PayScale",
     avatar: "A",
     title: "Data Engineer",
-    description: "Maintaining ETL Pipelines, building Data Warehouses, and productionizing Data Science workflows",
+    description: "Maintained ETL Pipelines, builtData Warehouses, and productionized Data Science workflows using microservices on kubernetes",
     link: "/experience/ps"
   },
   {

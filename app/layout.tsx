@@ -1,6 +1,7 @@
 import './globals.css'
 import '../style.css'
 import type { Metadata } from 'next'
+import { cn } from 'lib/utils'
 import { Inter } from 'next/font/google'
 import { LandingNavbar } from "@/components/landing-navbar";
 
@@ -19,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={inter.className}>
-        <div className="bg-[#111827] ">
-        <div className="h-full overflow-auto mx-auto max-w-screen-xl w-full">
+      <body className={cn("h-screen w-screen", inter.className)}>
+        <div className="bg-[#111827] h-screen text-white">
+        <div className="overflow-auto mx-auto max-w-screen-xl w-full">
           <LandingNavbar />
         </div>
         {children}
