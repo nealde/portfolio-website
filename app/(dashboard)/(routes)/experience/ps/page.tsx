@@ -22,11 +22,11 @@ export default function HomePage() {
               a hybridization of Machine Learning Engineering and Data Engineering.  I worrked closely with the Data Science team, helping them
               productionize their models, refactor and test their code to be more maintainable, and supported their systems in production hosted as Docker microservices in Kubernetes.
             </p>
-            <p className='mb-3'>The Data Engineering work focused on maintaining and developing ETL pipelines into a version-controlled Snowflake Data Warehouse which powered the Data Science team's access
-              to PayScale's historical Profile data.  
+            <p className='mb-3'>The Data Engineering work focused on maintaining and developing ETL pipelines into a version-controlled Snowflake Data Warehouse which powered the Data Science team&apos;s access
+              to PayScale&apos;s historical Profile data.  
             </p>
             <p>Highlights include:</p>
-            <ul style={{"list-style-type": "disc"}}>
+            <ul style={{listStyleType: 'disc'}}>
               <li>Refactored a legacy quarterly-run analysis to ensure maintainability, performance, and auditability</li>
               <li>Re-Architected the JobMatching data science pipeline for a 10x performance improvement and a 3x reduction in cost</li>
               <li>Developed and optimized multiple high-throughput microservices on Kubernetes</li>

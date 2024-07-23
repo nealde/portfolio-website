@@ -18,11 +18,11 @@ export default function HomePage() {
           <h3>Seattle, WA</h3>
           <h3 className='mb-10'>2015-2019</h3>
           <div className='items-center'>
-            <p className='mb-3'>In graduate school, I conducted research in Venkat Subramanian's lab, aiming to blend high-performance multiphysics
+            <p className='mb-3'>In graduate school, I conducted research in Venkat Subramanian&apos;s lab, aiming to blend high-performance multiphysics
               models of Li-Ion battery systems and Data Science to enable more efficient and robust calibration, design, and deployment of models in battery
               management systems.
             </p>
-            <p className='mb-3'>My Thesis, titled "The Role of Data Science in Numerical Modeling of Lithium Ion Batteries", focused on reviewing and building upon the 
+            <p className='mb-3'>My Thesis, titled The Role of Data Science in Numerical Modeling of Lithium Ion Batteries, focused on reviewing and building upon the 
               state-of-the-art in physics-guided neural networks, timeseries forecasting, model calibration techniques, and the opportunities for data-driven methods
               in li-ion battery modeling.
             </p>
