@@ -5,6 +5,10 @@
     padding-top: 10px !important;
   }
 
+.h1 {
+  color: white !important;
+}
+
 .post {
   width: 820px;
   margin-left: auto ;

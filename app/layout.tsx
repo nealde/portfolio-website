@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={cn("h-screen w-screen", inter.className)}>
-        <div className="bg-[#111827] h-screen text-white">
-        <div className="overflow-auto mx-auto max-w-screen-xl w-full">
+      <body className={cn("h-screen bg-[#111827]", inter.className)}>
+        <div className="text-white">
+        <div className="mx-auto max-w-screen-xl">
           <LandingNavbar />
         </div>
         {children}

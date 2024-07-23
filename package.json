@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.0.1",
     "@planetscale/database": "^1.11.0",
     "@prisma/client": "^5.4.2",
     "@radix-ui/react-collapsible": "^1.0.3",
