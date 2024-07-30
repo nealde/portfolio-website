@@ -5,7 +5,7 @@ import { allPosts, Post } from 'contentlayer/generated'
 
 function PostCard(post: Post) {
   return (
-    <div className="mb-8 card hover:scale-105 transition hover:shadow-md border-1">
+      <div className="mb-8 card hover:scale-105 transition hover:shadow-md border-1">
       <h2 className="mb-1 text-xl">
         <Link href={post.url} className="text-white dark:text-white">
           {post.title}
@@ -16,7 +16,7 @@ function PostCard(post: Post) {
       <time dateTime={post.date} className="mb-2 block text-xs text-gray-600">
         {format(parseISO(post.date), 'LLLL d, yyyy')}
       </time>
-      <div className="text-sm [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
+      {/* <div className="text-sm [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} /> */}
     </div>
   )
 }
