@@ -24,7 +24,7 @@ export const LandingHero = () => {
             <TypewriterComponent
               options={{
                 strings: [
-                  "Machine Learning Engineer",
+                  "ML Engineer",
                   "Data Scientist",
                   "Project Manager",
                   "Chemical Engineer",
