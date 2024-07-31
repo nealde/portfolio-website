@@ -1,7 +1,11 @@
 import React from 'react';
 // import { View, Image, StyleSheet } from 'react-native';
 
-const CircularImgView = ({ imageUri }) => {
+interface CircularImgViewProps {
+  imageUri: string;
+}
+
+const CircularImgView = ({ imageUri }: CircularImgViewProps) => {
   return (
     <img 
         src={imageUri}
