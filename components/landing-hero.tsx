@@ -42,7 +42,7 @@ export const LandingHero = () => {
           </div>
         </div>
         <div style={{width: '25%'}}>
-          <CircularImgView imageUri="/neal.jpg" />
+          <CircularImgView imageUri="/neal.JPG" />
         </div>
       </div>
       {/* <div className="text-sm md:text-xl font-light text-zinc-400">
