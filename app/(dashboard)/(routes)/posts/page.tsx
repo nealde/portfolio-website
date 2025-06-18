@@ -1,11 +1,17 @@
+'use client'
+
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allPosts, Post } from 'contentlayer/generated'
+import { useRouter } from 'next/navigation'
 
 
 function PostCard(post: Post) {
+  const router = useRouter()
   return (
-      <div className="mb-8 card hover:scale-105 transition hover:shadow-md border-1">
+      <div className="mb-8 card hover:scale-105 transition hover:shadow-md border-1 cursor-pointer" onClick={() => {
+        router.push(post.url)
+      }}>
       <h2 className="mb-1 text-xl">
         <Link href={post.url} className="text-white dark:text-white">
           {post.title}
